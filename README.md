@@ -52,7 +52,6 @@ La dimensión tiempo almacena la información temporal de los despachos.
 
 | Nombre de columna | Tipo de dato | Descripción |
 | :--- | :--- | :--- |
-| id_tiempo | INT | Identificador único de la dimensión (PK). |
 | iddia | INT | Fecha de la operación en formato numérico YYYYMMDD (ej. 20241221). |
 | anio | INT | Año correspondiente a la fecha del evento. |
 | trimestre | INT | Trimestre del año asociado a la fecha. |
@@ -66,7 +65,6 @@ Contiene los atributos descriptivos del cliente único que realiza la compra.
 
 | Nombre de columna | Tipo de dato | Descripción |
 | :--- | :--- | :--- |
-| id_cliente | INT | Identificador único de la dimensión (PK). |
 | idcliente | INT | Identificador numérico de origen del cliente (ej. 56741). |
 | tipo_cliente | STRING | Clasificación descriptiva del tipo de cliente. |
 | segmento | STRING | Segmento comercial al que pertenece el cliente. |
@@ -77,7 +75,6 @@ Almacena la información del punto de entrega final de los productos.
 
 | Nombre de columna | Tipo de dato | Descripción |
 | :--- | :--- | :--- |
-| id_destinatario | INT | Identificador único de la dimensión (PK). |
 | iddestinatario | INT | Identificador numérico de origen del punto final de entrega (ej. 22230). |
 | cod_destinatario | STRING | Código alfanumérico del destinatario. |
 | nombre_destinatario| STRING | Ciudad o dirección exacta del punto de entrega (ej. Trujillo, AV. AMERICAS). |
@@ -88,7 +85,6 @@ Detalla el material comercial vendido.
 
 | Nombre de columna | Tipo de dato | Descripción |
 | :--- | :--- | :--- |
-| id_producto | INT | Identificador único de la dimensión (PK). |
 | idmaterialcom | INT | Identificador numérico del material o producto (ej. 1612). |
 | desmaterialcom | STRING | Descripción del material o producto comercial. |
 | idunidadmedida | INT | Código numérico de la unidad de medida registrada original (ej. 1). |
@@ -101,7 +97,6 @@ Dimensión para estandarizar la métrica de volumen de los materiales.
 
 | Nombre de columna | Tipo de dato | Descripción |
 | :--- | :--- | :--- |
-| id_unidad_medida | INT | Identificador único de la dimensión (PK). |
 | idunidadmedida | INT | Código numérico de la unidad de medida (ej. 1). |
 | desc_unidad | STRING | Descripción de la unidad (ej. bolsa, ton, m3). |
 
@@ -111,7 +106,6 @@ Agrupa las operaciones logísticas según la sucursal o establecimiento responsa
 
 | Nombre de columna | Tipo de dato | Descripción |
 | :--- | :--- | :--- |
-| id_oficina | INT | Identificador único de la dimensión (PK). |
 | idoficina | INT | Identificador numérico de origen de la oficina o sucursal comercial (ej. 1212). |
 | nombre_oficina | STRING | Nombre descriptivo de la oficina. |
 | zona | STRING | Zona geográfica operativa de la oficina. |
@@ -122,7 +116,6 @@ Describe las rutas logísticas de reparto, vital para identificar las zonas geog
 
 | Nombre de columna | Tipo de dato | Descripción |
 | :--- | :--- | :--- |
-| id_ruta | INT | Identificador único de la dimensión (PK). |
 | idruta | INT | Identificador numérico de la ruta de reparto asociada a la oficina (ej. 235). |
 | descripcion_ruta | STRING | Descripción textual de la ruta de distribución. |
 | zona_destino | STRING | Clasificación de la zona de destino de la ruta. |
@@ -133,7 +126,6 @@ Contiene la información de la empresa, los vehículos y el personal asignado al
 
 | Nombre de columna | Tipo de dato | Descripción |
 | :--- | :--- | :--- |
-| id_transporte | INT | Identificador único de la dimensión (PK). |
 | idempresatransporte| INT | Identificador de origen de la empresa transportista. |
 | nombre_empresa | STRING | Razón social o nombre de la empresa de transporte. |
 | idtipovehiculo | INT | Código numérico del tipo de vehículo utilizado (ej. 7). |
@@ -147,7 +139,6 @@ Agrupa los datos del personal o sucursal comercial que gestiona la venta.
 
 | Nombre de columna | Tipo de dato | Descripción |
 | :--- | :--- | :--- |
-| id_vendedor | INT | Identificador único de la dimensión (PK). |
 | codvendedorinterno | INT | Código numérico del vendedor responsable de la venta. |
 | vendedorinterno | STRING | Nombre o descripción de la sucursal o vendedor (ej. DINO Sucursal). |
 | idgrupovendedor | INT | Identificador del grupo comercial al que pertenece. |
@@ -158,7 +149,6 @@ Permite segmentar las operaciones por el medio o tipo de socio de negocio.
 
 | Nombre de columna | Tipo de dato | Descripción |
 | :--- | :--- | :--- |
-| id_canal | INT | Identificador único de la dimensión (PK). |
 | idsubcanal | INT | Identificador numérico de origen del canal de venta (ej. 3). |
 | desc_canal | STRING | Descripción del canal. |
 
@@ -168,7 +158,6 @@ Clasifica los atributos que describen el estado logístico y el tipo de operaci�
 
 | Nombre de columna | Tipo de dato | Descripción |
 | :--- | :--- | :--- |
-| id_tipo_despacho | INT | Identificador único de la dimensión (PK). |
 | idtipodespacho | INT | Código numérico del tipo de despacho originado (ej. 7). |
 | idclasedespacho | INT | Código numérico de la clase específica de despacho. |
 | idestadoentrega | INT | Código numérico del estado actual de la entrega (ej. 1). |
@@ -180,7 +169,6 @@ Tabla central que consolida las métricas cuantitativas y transaccionales del ne
 
 | Nombre de columna | Tipo de dato | Descripción |
 | :--- | :--- | :--- |
-| id_despacho | INT | Identificador único del registro de despacho (PK). |
 | Llaves Foraneas | INT | FKs: id_tiempo, id_cliente, id_destinatario, id_producto, id_oficina, id_ruta, id_transporte, id_vendedor, id_canal, id_tipo_despacho, id_unidad_medida. |
 | nroentrega | STRING | Número único de la entrega (ej. 2301740686). |
 | nropedido | STRING | Dimensión degenerada: Número de pedido asociado (ej. 401471029). |
