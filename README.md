@@ -9,13 +9,17 @@
 ## 1. Introducción a la empresa
 CEMEX nació en 1906 en Nuevo León, México, como una pequeña planta regional llamada Cementos Hidalgo. En 1931, se fusionó con Cementos Portland Monterrey, dando origen oficial a Cementos Mexicanos (CEMEX).
 Las operaciones de CEMEX en Peru se dan principalmente bajo un modelo de importación y distribución, consolidándose como un fuerte competidor en el mercado nacional de materiales desde su ingreso en 2007.
-CEMEX ofrece una cartera diversificada de materiales para la construcción y centra su estrategia global en la sostenibilidad, la digitalización y la economía circular. 
+CEMEX ofrece una cartera diversificada de materiales para la construcción y centra su estrategia global en la sostenibilidad, la digitalización y la economía circular.
 
 
 ## 2. Problemática
-Durante los últimos 6 meses, se ha observado una disminución constante en la participación de mercado (market share) del Cemento Antisalitre HS.
-A pesar de que la demanda de cemento a nivel nacional se mantiene en crecimiento y de la aplicación de promociones y beneficios económicos a sus asociados por la compra del producto mediante su programa de lealtad de puntos, el producto no mejora su participación frente a productos competidores y sustitutos.
+Durante los últimos 6 meses, la gerencia ha observado una disminución constante en la participación de mercado (market share) del Cemento Antisalitre HS.
+A pesar de que la demanda de cemento a nivel nacional se mantiene en crecimiento y de la aplicación de promociones y beneficios económicos a sus asociados por la compra del producto mediante su programa de lealtad de puntos, el producto no mejora su participación frente a productos competidores y sustitutos. 
 Mantener activa una promoción de triple de puntos implica un costo operativo y financiero, por lo que la empresa espera resultados positivos en los despachos del producto para poder compensar la inversión realizada.
+
+### Objetivo
+Por lo tanto, lo que se quiere responder es:
+¿En qué zonas geográficas, canales de venta y periodos se concentra la caída de los despachos del Cemento Antisalitre HS, y cuál es el impacto real de la promoción de triple de puntos del programa de lealtad sobre el volumen despachado?
 
 ## 3. Marco teórico
 ### Business Intelligence
