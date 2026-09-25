@@ -42,7 +42,10 @@ El término OLAP (Online Analytical Processing) fue desarrollado por Codd, Codd 
 
 ## 5. Modelo multidimensional
 
-## 6. Referencias
+## 6. Dataset
+https://drive.google.com/drive/folders/1pt_AFsa8XqcQDsAzD5DGkNqI7F3tiFYS?usp=sharing 
+
+## 7. Referencias
 Chaudhuri, S., & Dayal, U. (1997). An overview of data warehousing and OLAP technology. ACM SIGMOD Record, 26(1), 65–74. https://doi.org/10.1145/248603.248616
 
 Codd, E. F., Codd, S. B., & Salley, C. T. (1993). Providing OLAP (On-line analytical processing) to user-analysts: An IT mandate. E.F. Codd & Associates. https://staff.icar.cnr.it/manco/Teaching/2006/datamining/articoli/olapcoddwp.pdf
