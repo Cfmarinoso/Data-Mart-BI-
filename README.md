@@ -43,8 +43,6 @@ El término OLAP (Online Analytical Processing) fue desarrollado por Codd, Codd 
 ## 4. Diccionario de datos
 # Modelamiento de Data Dimensional
 
-# Modelamiento de Data Dimensional
-
 El Data Warehouse de operaciones logísticas y comerciales está diseñado bajo un modelo dimensional de tipo estrella. Este esquema permite analizar los despachos de materiales (como el Cemento Antisalitre HS) desde múltiples perspectivas geográficas, comerciales y temporales para evaluar estrategias comerciales. 
 
 El modelo está compuesto por una tabla de hechos central, `FACT_DESPACHOS`, la cual se relaciona con once dimensiones para contextualizar el análisis operativo. A continuación, se detalla el diccionario de datos consolidado.
