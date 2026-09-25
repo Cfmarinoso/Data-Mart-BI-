@@ -19,7 +19,7 @@ Mantener activa una promoción de triple de puntos implica un costo operativo y 
 
 ### Objetivo
 Por lo tanto, lo que se quiere responder es:
-¿En qué zonas geográficas, canales de venta y periodos se concentra la caída de los despachos del Cemento Antisalitre HS, y cuál es el impacto real de la promoción de triple de puntos del programa de lealtad sobre el volumen despachado?
+¿En qué zonas geográficas, canales de venta y periodos se concentra la caída en los despachos del Cemento Antisalitre HS en el periodo 2021-2026?
 
 ## 3. Marco teórico
 ### Business Intelligence
