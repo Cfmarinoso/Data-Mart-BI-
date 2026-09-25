@@ -1,4 +1,4 @@
-# Proyecto CEMEX Peru
+# Business Intelligence aplicado al análisis de participación de mercado del Cemento Antisalitre HS en CEMEX Perú
 
 ## Integrantes:
 * Carlos Mariños
