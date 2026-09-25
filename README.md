@@ -193,6 +193,7 @@ Tabla central que consolida las métricas cuantitativas y transaccionales del ne
 | descuento | DECIMAL | Medida: Monto total de descuento o promoción aplicado. |
 | importefletefactura| DECIMAL | Medida: Costo del flete logístico asociado a la entrega. |
 ## 5. Modelo multidimensional
+<img width="852" height="672" alt="image" src="https://github.com/user-attachments/assets/c6210bf3-8af7-4260-9576-dc921235b3de" />
 
 
 ## 6. Dataset
